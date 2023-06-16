@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Righteous&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: contain;
+    background: #321051 url(Taieri.png) repeat;
+}
+
+header {
+    display:flex;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5em;
+    margin-top: 80px;
+    background-color: #321051;
+    color: white;
+}
+
+.wrap {
+    padding: 50px;
+    background-color: #321051;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.table {
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background-color: #321051;
+    color: white;
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#mapid {
+    height: 500px;
+    width:700px;
+}
